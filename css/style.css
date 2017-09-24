@@ -84,6 +84,18 @@ a:active, a:focus {
 	opacity: 1.0;
 } 
 
+@media (max-width:420px) {
+	
+	input {
+		min-width: 10em;
+	}
+	
+	#icons a img {
+		width: 3em;
+		height: 3em;
+	}
+}
+
 @media (max-width:768px) {
 	input {
 		min-width: 15em;
@@ -99,15 +111,35 @@ a:active, a:focus {
 	}
 }
 
-@media (max-width:420px) {
-	
-	input {
-		min-width: 10em;
+
+@media (min-width:1280px) {
+    
+    	input {
+		max-width: 24em;
 	}
 	
+	input:focus {
+		width: 70%;
+	}
 	
 	#icons a img {
-		width: 3em;
-		height: 3em;
+		width: 5.5em;
+		height: 5.5em;
+	}
+}
+
+@media (min-width:1680px) {
+    
+    	input {
+		max-width: 30em;
+	}
+	
+	input:focus {
+		width: 70%;
+	}
+	
+	#icons a img {
+		width: 7em;
+		height: 7em;
 	}
 }
