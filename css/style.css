@@ -1,0 +1,114 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 100%;
+	font-family: Arial;
+	background-color: #404040;
+	text-align: center;
+}
+
+#container {
+	margin-top: 15%;
+	position: relative;
+}
+
+input {
+	color: #05A2C7;
+    width: 40%;
+	min-width:22em;
+	font-size: 1.5em;
+	border: none;
+	background: none;
+	outline: none;
+	border-bottom: 3px solid #05A2C7;
+    -webkit-transition: width 0.5s ease-in-out;
+    transition: width 0.5s ease-in-out;
+}
+
+input:focus {
+    width: 50%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:active, a:focus {
+  outline: 0;
+  border: none;
+  -moz-outline-style: none;
+}
+	
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.drop {
+    display: none;
+    position: absolute;
+	list-style: none;
+	margin-left: 2.2em;
+}
+ 
+.drop a {
+	color: #05A2C7;
+    padding: 0.2em;
+	font-size: 1.3em;
+	text-align: center;
+    display: block;
+	opacity: 0.7;
+}
+
+@media (min-width:768px) {
+	.dropdown:hover .drop {
+		 display: block;
+	}
+
+	.drop a:hover {
+		opacity: 1;
+	}
+}
+
+#icons a img {
+	width: 5em;
+	height: 5em;
+	margin: 1em;
+    opacity: 0.7;
+}
+
+#icons a img:hover {
+	opacity: 1.0;
+} 
+
+@media (max-width:768px) {
+	
+	input {
+		min-width: 15em;
+	}
+	
+	input:focus {
+    width: 75%;
+	}
+		
+	#icons a img {
+		width: 4em;
+		height: 4em;
+	}
+}
+
+@media (max-width:420px) {
+	
+	input {
+		min-width: 10em;
+	}
+	
+	
+	#icons a img {
+		width: 3em;
+		height: 3em;
+	}
+}
