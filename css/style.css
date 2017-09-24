@@ -17,19 +17,19 @@ body {
 
 input {
 	color: #05A2C7;
-    width: 40%;
+	width: 40%;
 	min-width:22em;
 	font-size: 1.5em;
 	border: none;
 	background: none;
 	outline: none;
 	border-bottom: 3px solid #05A2C7;
-    -webkit-transition: width 0.5s ease-in-out;
-    transition: width 0.5s ease-in-out;
+	-webkit-transition: width 0.5s ease-in-out;
+	transition: width 0.5s ease-in-out;
 }
 
 input:focus {
-    width: 50%;
+	width: 50%;
 }
 
 a {
@@ -37,35 +37,35 @@ a {
 }
 
 a:active, a:focus {
-  outline: 0;
-  border: none;
-  -moz-outline-style: none;
+	outline: 0;
+	border: none;
+	-moz-outline-style: none;
 }
 	
 .dropdown {
-    position: relative;
-    display: inline-block;
+	position: relative;
+	display: inline-block;
 }
 
 .drop {
-    display: none;
-    position: absolute;
+	display: none;
+	position: absolute;
 	list-style: none;
 	margin-left: 2.2em;
 }
  
 .drop a {
 	color: #05A2C7;
-    padding: 0.2em;
+	padding: 0.2em;
 	font-size: 1.3em;
 	text-align: center;
-    display: block;
+	display: block;
 	opacity: 0.7;
 }
 
 @media (min-width:768px) {
 	.dropdown:hover .drop {
-		 display: block;
+		display: block;
 	}
 
 	.drop a:hover {
@@ -77,7 +77,7 @@ a:active, a:focus {
 	width: 5em;
 	height: 5em;
 	margin: 1em;
-    opacity: 0.7;
+	opacity: 0.7;
 }
 
 #icons a img:hover {
@@ -85,13 +85,12 @@ a:active, a:focus {
 } 
 
 @media (max-width:768px) {
-	
 	input {
 		min-width: 15em;
 	}
 	
 	input:focus {
-    width: 75%;
+		width: 75%;
 	}
 		
 	#icons a img {
